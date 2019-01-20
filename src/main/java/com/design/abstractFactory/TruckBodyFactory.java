@@ -8,4 +8,16 @@ public class TruckBodyFactory extends BodyFactory {
 		return new TruckBodyFactory();
 	}
 
+	@Override
+	public EngineFactory getEngine() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getBodyName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
