@@ -1,7 +1,7 @@
 package com.design.decorator;
 
 public class PizzaDecorator implements PizzaHot {
-	PizzaHot pizza;
+	private PizzaHot pizza;
 
 	PizzaDecorator(PizzaHot pizza) {
 		this.pizza = pizza;
